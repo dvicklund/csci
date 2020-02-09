@@ -3,6 +3,10 @@
   background-color: #F2AAAE;
 }
 
+header {
+  text-align: center;
+}
+
 h1 {
   font-size: 4em;
   font-weight: bold;
@@ -11,9 +15,24 @@ h1 {
 }
 
 nav {
-  
+  float: left;
 }
 
 p {
   font-size: 1em;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  clear: left;
+  text-align: center;
+  background-color: rgba(100,100,100,0.5);
+  color: #901E1B;
+}
+
+.grey-background {
+  background-color: rgba(100,100,100,0.5);
 }
