@@ -3,15 +3,15 @@
   background-color: #F2AAAE;
 }
 
+header {
+  text-align: center;
+}
+
 h1 {
   font-size: 4em;
   font-weight: bold;
   color: #901E1B;
   background-color: rgba(100,100,100,0.5);
-}
-
-nav {
-  
 }
 
 p {
