@@ -23,5 +23,16 @@ p {
 }
 
 footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
   clear: left;
+  text-align: center;
+  background-color: rgba(100,100,100,0.5);
+  color: #901E1B;
+}
+
+.grey-background {
+  background-color: rgba(100,100,100,0.5);
 }
