@@ -3,6 +3,10 @@
   background-color: #F2AAAE;
 }
 
+body {
+  font-family: Georgia, serif;
+}
+
 header {
   text-align: center;
 }
@@ -16,12 +20,21 @@ h1 {
 
 nav {
   float: left;
+  width: auto;
+  text-align: left;
+  padding: 0.5em 1em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+main {
+  padding: 1em;
 }
 
 p {
   font-size: 1em;
-  padding-left: 150px;
-  padding-top: 50px;
 }
 
 footer {
