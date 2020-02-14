@@ -9,13 +9,17 @@ body {
 
 header {
   text-align: center;
+  background-color: rgba(255,255,255,0.7);
+  display: block;
 }
 
 h1 {
-  font-size: 4em;
+  font-size: 2.1em;
   font-weight: bold;
   color: #901E1B;
-  background-color: rgba(100,100,100,0.5);
+  width: auto;
+  background-color: rgba(0,0,0,0);
+  display: inline-block;
 }
 
 nav {
@@ -63,4 +67,36 @@ footer {
 
 .grey-background {
   background-color: rgba(100,100,100,0.5);
+}
+
+#plumbusTransparentLogo {
+  display: inline;
+  height: 2em;
+  width: 1.5em;
+  padding-top: 0.2em;
+  background-color: rgba(0,0,0,0);
+}
+
+#plumbusTransparent {
+  height: 20em;
+  width: 15em;
+}
+
+@media only screen and (max-width: 1024px) {
+  h1 {
+    font-size: 5em;
+  }
+
+  #plumbusTransparentLogo {
+    height: 5em;
+    width: 3.75em;
+  }
+
+  li {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+
 }
