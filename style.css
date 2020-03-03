@@ -59,6 +59,7 @@ main {
 
 p {
   font-size: 1em;
+  padding: 0.5em;
 }
 
 footer {
@@ -138,11 +139,12 @@ footer {
   }
 
   .menuButtonContainer {
-    float: left;
     padding-left: 0.5em;
     background-color: rgba(0,0,0,0);
     display: block;
     cursor: pointer;
+    position: absolute;
+    left: 0;
   }
 
   #navMenu {
@@ -150,13 +152,20 @@ footer {
   }
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 640px) {
+  nav {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
   .menuButtonContainer {
-    float: left;
     padding-left: 0.5em;
     background-color: rgba(0,0,0,0);
     display: block;
     cursor: pointer;
+    position: absolute;
+    left: 0;
   }
 
   #navMenu {

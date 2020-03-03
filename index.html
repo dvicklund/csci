@@ -37,7 +37,9 @@
     </nav>
 
     <main>
-      <p></p>
+      <h2>Our Story</h2>
+      <p>Everybody has a plumbus in their home!  Here at Plumbus Inc., we pride ourselves on creating the most functioal, reliable plumbuses available.  Since our founder invented the plumbus in 2085, it has become a staple in households across the galaxy - but that doesn't mean we've grown complacent!  We work hard to provide new features and releases of plumbuses for your use and enjoyment.</p>
+      <p>See our <a href="products.html">products page</a> for the latest in plumbus innovations!</p>
       <img id="plumbusTransparent" src="images/plumbus_transparent.png" alt="plumbus">
     </main>
 
@@ -45,21 +47,6 @@
       <p class="grey-background">&copy; &infin;</p>
     </footer>
 
-    <script type="text/javascript">
-      let navMenu = document.getElementById('navMenu')
-      if(!navMenu) {console.error('NavMenu not found!')} else {console.log('found navmenu')}
-
-      function toggleMenu(container) {
-        container.classList.toggle('change')
-
-        console.log(navMenu.style.display)
-
-        if(navMenu.style.display === 'block') {
-          navMenu.style.display = 'none'
-        } else {
-          navMenu.style.display = 'block'
-        }
-      }
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
