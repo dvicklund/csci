@@ -91,16 +91,16 @@ footer {
 
 @media only screen and (max-width: 1024px) {
   h1 {
-    font-size: 5em;
+    font-size: 2em;
   }
 
   #plumbusTransparentLogo {
-    height: 5em;
-    width: 3.75em;
+    height: 2em;
+    width: 1.5em;
   }
 
   li {
-    font-size: 2em;
+    font-size: 1em;
   }
 }
 
@@ -126,4 +126,3 @@ h3{
   margin-right: auto;
   width: 50%;
 }
-
