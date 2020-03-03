@@ -138,12 +138,12 @@ footer {
   }
 
   .menuButtonContainer {
-    float: left;
     padding-left: 0.5em;
     background-color: rgba(0,0,0,0);
     display: block;
     cursor: pointer;
-    width: 0px;
+    position: absolute;
+    left: 0;
   }
 
   #navMenu {
@@ -159,12 +159,12 @@ footer {
   }
 
   .menuButtonContainer {
-    float: left;
     padding-left: 0.5em;
     background-color: rgba(0,0,0,0);
     display: block;
     cursor: pointer;
-    width: 0px;
+    position: absolute;
+    left: 0;
   }
 
   #navMenu {
