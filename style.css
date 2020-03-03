@@ -93,7 +93,7 @@ footer {
   float: left;
   padding-left: 0.5em;
   background-color: rgba(0,0,0,0);
-  display: relative;
+  display: none;
   cursor: pointer;
 }
 
@@ -137,12 +137,28 @@ footer {
     font-size: 1em;
   }
 
+  .menuButtonContainer {
+    float: left;
+    padding-left: 0.5em;
+    background-color: rgba(0,0,0,0);
+    display: block;
+    cursor: pointer;
+  }
+
   #navMenu {
     display: none;
   }
 }
 
 @media only screen and (max-width: 720px) {
+  .menuButtonContainer {
+    float: left;
+    padding-left: 0.5em;
+    background-color: rgba(0,0,0,0);
+    display: block;
+    cursor: pointer;
+  }
+
   #navMenu {
     display: none;
   }
