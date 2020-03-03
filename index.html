@@ -11,11 +11,17 @@
   </head>
   <body>
     <header>
+      <div class="menuButtonContainer" onclick="toggleMenu(this)" >
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
       <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
       <h1>Plumbus Inc.</h1>
     </header>
 
-    <nav>
+    <nav id="navMenu">
       <ul>
         <a href="index.html"><li>Home</li></a>
         <a href="about.html"><li>About</li></a>
@@ -31,7 +37,6 @@
     </nav>
 
     <main>
-
       <p></p>
       <img id="plumbusTransparent" src="images/plumbus_transparent.png" alt="plumbus">
     </main>
@@ -39,5 +44,22 @@
     <footer>
       <p class="grey-background">&copy; &infin;</p>
     </footer>
+
+    <script type="text/javascript">
+      let navMenu = document.getElementById('navMenu')
+      if(!navMenu) {console.error('NavMenu not found!')} else {console.log('found navmenu')}
+
+      function toggleMenu(container) {
+        container.classList.toggle('change')
+
+        console.log(navMenu.style.display)
+
+        if(navMenu.style.display === 'block') {
+          navMenu.style.display = 'none'
+        } else {
+          navMenu.style.display = 'block'
+        }
+      }
+    </script>
   </body>
 </html>
