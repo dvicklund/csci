@@ -4,16 +4,22 @@
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
-  <title>Plumbus Inc.</title>
+  <title>Administration</title>
   <link rel="shortcut icon" href="images/plumbus_lg.png" type="image/png">
 </head>
 <body>
   <header>
+    <div class="menuButtonContainer" onclick="toggleMenu(this)" >
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
     <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
     <h1>Plumbus Inc.</h1>
   </header>
 
-  <nav>
+  <nav id="navMenu">
     <ul>
       <a href="index.html"><li>Home</li></a>
       <a href="about.html"><li>About</li></a>
@@ -32,23 +38,55 @@
 
   <br><br>
 
-  <h2>Meet the team:</h2>
-<div>
-  <img src="images/buffet.jpeg" alt="" width="400px">
   
-  <img src="images/bill.jpg" alt="" width="400px">
-
-<div>
-<img src="images/jeff.jpg" alt="" width="400px">
-
-<img src="images/jenner.jpg" alt="" width="400px">
-
-<img src="images/zuck.jpg" alt="" width="400px">
-
-<img src="images/sparrow.jpg" alt="" width="400px">
-
-<img src="images/oprah.jpg" alt="" width="400px">
-</div>
+<h2>Meet our Administration:</h2>
+  <div class="center">
+  
+  <table>
+    <caption><h2></h2></caption>
+  
+    <tbody>
+        <tr>
+            <td>Warren Buffet: A crazy rich old guy who spends $1.36 at McDonalds every morning.</td>
+            <td><img src="images/buffet.jpeg" alt="" width="400px"></td>
+            
+        </tr>
+        <tr>
+            <td>Bill Gates: Making the world a better place, one Plumbus at a time.</td>
+            <td> <img src="images/bill.jpg" alt="" width="400px"></td>
+           
+        </tr>
+        <tr>
+            <td>Jeff Bezos: Uses the Plumbus to shine his bald head every day. Large influencer.</td>
+            <td><img src="images/jeff.jpg" alt="" width="400px"></td>
+        </tr>
+        <tr>
+          <td>Mrs. Jenner: Large Instagram follow base. Advertises for Plumbus Inc. over social media.</td>
+          <td><img src="images/jenner.jpg" alt="" width="400px"></td>
+      </tr>
+      <tr>
+        <td>Oprah Winphrey: Runs global sales market. She is one of the OG Administrators. Joke with her and you'll surely be fired.</td>
+        <td><img src="images/oprah.jpg" alt="" width="400px"></td>
+      </tr>
+      <tr>
+        <td>Jack Sparrow: He's got to be the best pirate i've ever seen.</td>
+        <td><img src="images/sparrow.jpg" alt="" width="400px"></td>
+      </tr>
+      <tr>
+        <td>Mr. Worldwide: He knows everything about you.</td>
+        <td><img src="images/zuck.jpg" alt="" width="400px"></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </tbody>
+</table>
+<br><br><br>
 </div>
 </body>
+<script src="script.js"></script>
+<footer>
+  <p class="grey-background">&copy; &infin;</p>
+</footer>
 </html>

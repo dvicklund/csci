@@ -177,7 +177,7 @@ div img{
   float: left;
   width: 400px;
   height: 250px;
-  padding-left: 30em;
+  
 }
 
 h3{
@@ -190,4 +190,12 @@ h3{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+
+td{
+  vertical-align: middle;
+  text-align: center;
+  padding-right: 30px;
+  /*  border: solid black 1px; */
 }
