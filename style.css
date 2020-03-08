@@ -124,6 +124,12 @@ footer {
   display: block;
 }
 
+#plumbusSplash {
+  background-image: url("images/plumbusSplash.jpg");
+  height: 100px;
+  width: 100%;
+}
+
 @media only screen and (min-width: 1280px) {
   .pageContainer {
     margin: 0 auto;
