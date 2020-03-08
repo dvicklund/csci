@@ -124,6 +124,24 @@ footer {
   display: block;
 }
 
+@media only screen and (min-width: 1280px) {
+  .pageContainer {
+    margin: 0 auto;
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .pageContainer {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  main {
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
   h1 {
     font-size: 2em;
@@ -177,7 +195,7 @@ div img{
   float: left;
   width: 400px;
   height: 250px;
-  
+
 }
 
 h3{
