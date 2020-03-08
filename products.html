@@ -4,30 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Priducts</title>
+    <title>Products Page</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="images/plumbus_lg.png" type="image/png">
 
+    <style>
+      
+    </style>
+
 </head>
 <body>
   <header>
+    <div class="menuButtonContainer" onclick="toggleMenu(this)" >
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
     <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
     <h1>Plumbus Inc.</h1>
   </header>
-    <nav>
-      <ul>
-        <a href="index.html"><li>Home</li></a>
-        <a href="about.html"><li>About</li></a>
-        <a href="retailers.html"><li>Retailers</li></a>
-        <a href="administration.html"><li>Administration</li></a>
-        <a href="contact.html"><li>Contact</li></a>
-        <a href="partners.html"><li>Partners</li></a>
-        <a href="products.html"><li>Products</li></a>
-        <a href="support.html"><li>Support</li></a>
-        <a href="howitsmade.html"><li>How it's made</li></a>
-        <a href="careers.html"><li>Careers</li></a>
-      </ul>
-    </nav>
+
+  <nav id="navMenu">
+    <ul>
+      <a href="index.html"><li>Home</li></a>
+      <a href="about.html"><li>About</li></a>
+      <a href="retailers.html"><li>Retailers</li></a>
+      <a href="administration.html"><li>Administration</li></a>
+      <a href="contact.html"><li>Contact</li></a>
+      <a href="partners.html"><li>Partners</li></a>
+      <a href="products.html"><li>Products</li></a>
+      <a href="support.html"><li>Support</li></a>
+      <a href="howitsmade.html"><li>How it's made</li></a>
+      <a href="careers.html"><li>Careers</li></a>
+    </ul>
+  </nav>
+
+  <main>
+    <h2>Products Page</h2>
+    <p>
+      Here at Plumbus Inc. we pride ourselves not only in making the amazing Plumbus&trade;, but also in our variety of high-quality line of products that serve to keep our customers hooked and BEGGING for more. Take a browse and buy something. You know you want to (if you don't your friends and family will leave you alone and sad for the rest of your life). Buy Now!
+    </p>
+
+    <table>
+      <caption>Products</caption>
+      <tr>
+        <th>Image</th>
+        <th>Product</th>
+        <th>Price</th>
+        <th>Product Description</th>
+      </tr>
+
+      <tr>
+        <td><img src="images/plumbus_real.jpg" alt="prodPlumbus"></td>
+        <td>THE Plumbus&trade;</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><img src="images/fleebJuice.jpeg" alt="fleebJuice"></td>
+        <td>Fleeb Juice</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><img src="images/fancyPlumbusStand.jpg" alt="fancyPlumbusStand"></td>
+        <td>Fancy Plumbus Stand</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><img src="images/simpleRickWafers.jpg" alt=""></td>
+        <td>Simple Rick Wafers</td>
+        <td></td>
+        <td></td>
+      </tr>
+
+      <tr>
+        <td><img src="images/kalaxianCrystal.webp" alt=""></td>
+        <td>Kalaxian Crystals</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+
+  </main>
+
+
+    <script src="script.js"></script>
 </body>
 </html>

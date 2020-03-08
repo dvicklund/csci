@@ -8,26 +8,71 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="shortcut icon" href="images/plumbus_lg.png" type="image/png">
+    <style>
+      
+    </style>
 
 </head>
 <body>
-    <header>
-      <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
-      <h1>Plumbus Inc.</h1>
-    </header>
-    <nav>
-      <ul>
-        <a href="index.html"><li>Home</li></a>
-        <a href="about.html"><li>About</li></a>
-        <a href="retailers.html"><li>Retailers</li></a>
-        <a href="administration.html"><li>Administration</li></a>
-        <a href="contact.html"><li>Contact</li></a>
-        <a href="partners.html"><li>Partners</li></a>
-        <a href="products.html"><li>Products</li></a>
-        <a href="support.html"><li>Support</li></a>
-        <a href="howitsmade.html"><li>How it's made</li></a>
-        <a href="careers.html"><li>Careers</li></a>
-      </ul>
-    </nav>
+  <header>
+    <div class="menuButtonContainer" onclick="toggleMenu(this)" >
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
+    <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
+    <h1>Plumbus Inc.</h1>
+  </header>
+
+  <nav id="navMenu">
+    <ul>
+      <a href="index.html"><li>Home</li></a>
+      <a href="about.html"><li>About</li></a>
+      <a href="retailers.html"><li>Retailers</li></a>
+      <a href="administration.html"><li>Administration</li></a>
+      <a href="contact.html"><li>Contact</li></a>
+      <a href="partners.html"><li>Partners</li></a>
+      <a href="products.html"><li>Products</li></a>
+      <a href="support.html"><li>Support</li></a>
+      <a href="howitsmade.html"><li>How it's made</li></a>
+      <a href="careers.html"><li>Careers</li></a>
+    </ul>
+  </nav>
+
+  <div id="partnerDisplay">
+
+    <table>
+      <caption><h2>Plumbus Incorporated is a proud partner of:</h2></caption>
+    
+      <tbody>
+        <tr>
+          <td>Rick and Morty</td>
+          <td>Our legendary research advisors</td>
+          <td><img src="images/rickAndMorty.jfif" alt=""></td>
+        </tr>
+  
+        <tr>
+          <td>Adult Swim</td>
+          <td>We dabble in the entertainment industry, especially adult entertainment ;)</td>
+          <td><img src="images/adultSwim.jpg" alt=""></td>
+        </tr>
+  
+        <tr>
+          <td>Western Washington University</td>
+          <td>WWU gave us all of our equipment for development. at the low price of $5000.00 per quarter. We're not going hungry or anything.</td>
+          <td><img src="images/wwu.jpg" alt=""></td>
+        </tr>
+  
+        <tr>
+          <td>Lucasfilm</td>
+          <td>Don't ask why because there is not a good explanation for this one.</td>
+          <td><img src="images/lucasfilm.jpg" alt=""></td>
+        </tr>
+         
+      </tbody>
+  </table>
+
+  <script src="script.js"></script>
 </body>
 </html>
