@@ -8,11 +8,20 @@
   <link rel="shortcut icon" href="images/plumbus_lg.png" type="image/png">
 </head>
 <body>
+  
   <header>
+    <div class="menuButtonContainer" onclick="toggleMenu(this)" >
+      <div class="bar1"></div>
+      <div class="bar2"></div>
+      <div class="bar3"></div>
+    </div>
+
     <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
     <h1>Plumbus Inc.</h1>
   </header>
-  <nav>
+
+  <div class="pageContainer">
+  <nav id="navMenu">
     <ul>
       <a href="index.html"><li>Home</li></a>
       <a href="about.html"><li>About</li></a>
@@ -26,6 +35,7 @@
       <a href="careers.html"><li>Careers</li></a>
     </ul>
   </nav>
+
 	<main>
 		<h2>Contact Us:</h2>
 		<p>For our front desk, please call (360)555-5555</p>
@@ -33,6 +43,11 @@
 		<p>If you would like to to place a special order, please call (360)555-5557.</p>
 		<p>If you are seeking support for a product or service you purchased from our company, <a href="support.html">please visit our support page</a>.</p>
 		<p>For all other questions and concerns, please feel free to e-mail us at <a href="mailto:plumbusbusiness@plumbusinc.com">plumbusbusiness@plumbusinc.com</a>.</p>
-	</main>
+  </main>
+  </div>
   </body>
+  <script src="script.js"></script>
+  <footer>
+    <p class="grey-background">&copy; &infin;</p>
+  </footer>
 </html>
