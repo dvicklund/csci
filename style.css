@@ -141,6 +141,22 @@ footer {
   float: left;
 }
 
+#supportimg {
+	background-image: url("images/support.jpg");
+	width: 150px;
+	height: 200px;
+	background-size: cover;
+	float: right;
+}
+
+#contactimg {
+	background-image: url("images/contact.jpg");
+	width: 150px;
+	height: 200px;
+	background-size: cover;
+	float: right;
+}
+
 .plumbusSplash {
   padding: 2em;
   font-size: 1.5em;
@@ -150,6 +166,12 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
+}
+
+.contactwrapper {
+	width: 70%;
+	margin-right: 0;
+	display: inline-block;
 }
 
 .plumbusSplash h2 {
@@ -232,6 +254,14 @@ footer {
     padding: 0;
     text-align: center;
   }
+	
+	#supportimg {
+		display: none;
+	}
+
+	#contactimg {
+		display: none;
+	}
 
 	.desktopphone {
 		display: none;
