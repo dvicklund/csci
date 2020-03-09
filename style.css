@@ -144,7 +144,7 @@ footer {
   padding: 2em;
   font-size: 1.5em;
   color: white;
-  background-image: linear-gradient(rgba(240, 160, 160, 0.7), rgba(0,0,0,0.9)), url("images/plumbusDesk.jpg");
+  background-image: linear-gradient(rgba(240, 160, 160, 0.9), rgba(0,0,0,0.9)), url("images/plumbusDesk.jpg");
   background-position: 0% 70%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -152,7 +152,7 @@ footer {
 }
 
 .plumbusSplash h2 {
-  color: #ff4060;
+  color: #a00000;
   margin: 1vw;
 }
 
