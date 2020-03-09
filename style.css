@@ -37,6 +37,7 @@ nav {
   text-align: left;
   padding: 0.5em 1em;
   border-radius: 0.5em;
+  position: fixed;
 }
 
 nav li {
@@ -136,6 +137,14 @@ footer {
   height: 100%;
 }
 
+.desktopphone {
+	display: inline;
+}
+
+.mobilephone {
+	display: none;
+}
+
 @media only screen and (min-width: 1280px) {
   .pageContainer {
     margin: 0 auto;
@@ -188,6 +197,14 @@ footer {
     padding: 0;
     text-align: center;
   }
+
+	.desktopphone {
+		display: none;
+	}
+
+	.mobilephone {
+		display: inline;
+	}
 
   .menuButtonContainer {
     padding-left: 0.5em;
