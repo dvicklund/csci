@@ -29,6 +29,10 @@ h2 {
   margin-top: 2vw;
 }
 
+p {
+  line-height: 130%;
+}
+
 nav {
   background-color: rgba(240, 160, 160, 0.6);
   background-image: linear-gradient(to right, rgba(240, 160, 160, 0.6), rgba(240 ,160, 160, 0.0));
