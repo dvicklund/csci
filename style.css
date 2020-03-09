@@ -22,11 +22,11 @@ h1 {
   display: inline-block;
 }
 
-h2{
+h2 {
   font-size: 1.5em;
   font-weight: bold;
   color: #901E1B;
-
+  margin-top: 2vw;
 }
 
 nav {
@@ -36,6 +36,7 @@ nav {
   width: auto;
   text-align: left;
   padding: 0.5em 1em;
+  margin: 2vw;
   border-radius: 0.5em;
 }
 
@@ -66,15 +67,10 @@ p {
 }
 
 blockquote {
-  quotes: "“" "”" "‘" "’";
-}
-
-blockquote :before {
-  content: open-quote;
-}
-
-blockquote :after {
-  content: close-quote;
+  display: inline;
+  font-size: 130%;
+  margin: 1vw 1.5vw 1vw 7vw;
+  padding-left: 1vw;
 }
 
 footer {
@@ -103,6 +99,11 @@ footer {
 #plumbusTransparent {
   height: 20em;
   width: 15em;
+}
+
+#invertedPlumbus {
+  height: 100%;
+  width: 100%;
 }
 
 .menuButtonContainer {
