@@ -1,18 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
-  <meta charset="utf-8">
 
-  <link rel="shortcut icon" href="images/plumbus_lg.png" type="image/png">
-    <title>Thanks</title>
-</head>
-<body>
-    <h1>Thank you for filling out our survey.</h1>
-    <br><br><br><br>
-    <a href="index.html">Home</a>
-</body>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/plumbus_lg.png" type="image/png">
+
+    <title>Thanks!</title>
+  </head>
+  
+  <body>
+    <header>
+      <div class="menuButtonContainer" onclick="toggleMenu(this)" >
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+
+      <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
+      <h1>Plumbus Inc.</h1>
+    </header>
+
+    <nav id="navMenu">
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="retailers.html"><li>Retailers</li></a>
+        <a href="administration.html"><li>Administration</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+        <a href="partners.html"><li>Partners</li></a>
+        <a href="products.html"><li>Products</li></a>
+        <a href="support.html"><li>Support</li></a>
+        <a href="howitsmade.html"><li>How it's made</li></a>
+        <a href="careers.html"><li>Careers</li></a>
+      </ul>
+    </nav>
+
+    <div class="pageContainer">
+      <h2>Thank you for filling out our survey.</h2>
+
+      <a href="index.html">Home</a>
+    </div>
+  </body>
 </html>

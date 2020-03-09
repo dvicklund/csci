@@ -1,81 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Retailers</title>
-  <link rel="stylesheet" href="reset.css">
-  <link rel="stylesheet" href="style.css">
-  <meta charset="utf-8">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="shortcut icon" href="images/plumbus_lg.png" type="image/png">
-</head>
-<body>
-  <header>
-    <div class="menuButtonContainer" onclick="toggleMenu(this)" >
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
-    </div>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/plumbus_lg.png" type="image/png">
 
-    <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
-    <h1>Plumbus Inc.</h1>
-  </header>
+    <title>Retailers</title>
+  </head>
 
-  <div class="pageContainer">
-  <nav id="navMenu">
-    <ul>
-      <a href="index.html"><li>Home</li></a>
-      <a href="about.html"><li>About</li></a>
-      <a href="retailers.html"><li>Retailers</li></a>
-      <a href="administration.html"><li>Administration</li></a>
-      <a href="contact.html"><li>Contact</li></a>
-      <a href="partners.html"><li>Partners</li></a>
-      <a href="products.html"><li>Products</li></a>
-      <a href="support.html"><li>Support</li></a>
-      <a href="howitsmade.html"><li>How it's made</li></a>
-      <a href="careers.html"><li>Careers</li></a>
-    </ul>
-  </nav>
-    <p>
-      <br><br><br>
-        Our plumbus is sold universally to anybody, anywhere. Currently, customers may purchase our product through many websites, as well as in-store at retailers such as The Home Depot, Lowes, Target, and Walgreens.
-    </p>
-    <br><br>
-    <p>
-        Currently, our top retailer is <a href="https://www.amazon.com/RICK-AND-MORTY-RM-1012-Plumbus/dp/B07P97VMVR/ref=sr_1_1?keywords=plumbus&qid=1581206409&sr=8-1">Amazon</a>. The plumbus is carefully packed and transported through every means necessary. From our home, to yours. 
-    </p>
-    <br><br>
-    <p>
-      <br><br><br><br><br>
-      Interested in becoming a retailer? <a href="contact.html">Contact</a> us by email, or complete the quick survey below.
-    </p>
-
-
-    <br><br>
-    <div class="center">
-    <form action="thanks.html" method="GET" autocomplete id="form" name="form1">
-      <label for="username">Business</label>
-      <input type="text" name="username" id="name" placeholder="Enter Business Name" required>
-
-      <br><br>
-
-      <textarea name="" id="" cols="100" rows="15" placeholder="Your message..."></textarea>
-
-      <br><br>
-      
-      <input type="submit" value="Submit">
+  <body>
+    <header>
+      <div class="menuButtonContainer" onclick="toggleMenu(this)" >
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
       </div>
-    </form>
+
+      <img id="plumbusTransparentLogo" src="images/plumbus_transparent.png" alt="plumbusLogo">
+      <h1>Plumbus Inc.</h1>
+    </header>
+
+    <nav id="navMenu">
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="retailers.html"><li>Retailers</li></a>
+        <a href="administration.html"><li>Administration</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+        <a href="partners.html"><li>Partners</li></a>
+        <a href="products.html"><li>Products</li></a>
+        <a href="support.html"><li>Support</li></a>
+        <a href="howitsmade.html"><li>How it's made</li></a>
+        <a href="careers.html"><li>Careers</li></a>
+      </ul>
+    </nav>
+
+    <div class="pageContainer">
+      <p>Our plumbus is sold universally to anybody, anywhere. Currently, customers may purchase our product through many websites, as well as in-store at retailers such as The Home Depot, Lowes, Target, and Walgreens.</p>
+
+      <p>Currently, our top retailer is <a href="https://www.amazon.com/RICK-AND-MORTY-RM-1012-Plumbus/dp/B07P97VMVR/ref=sr_1_1?keywords=plumbus&qid=1581206409&sr=8-1">Amazon</a>. The plumbus is carefully packed and transported through every means necessary. From our home, to yours.</p>
+
+      <p>Interested in becoming a retailer? <a href="contact.html">Contact</a> us by email, or complete the quick survey below.</p>
+
+      <form action="thanks.html" method="GET" autocomplete id="form" name="form1">
+        <label for="username">Business</label>
+        <input type="text" name="username" id="name" placeholder="Enter Business Name" required>
+
+        <textarea name="" id="" cols="100" rows="15" placeholder="Your message..."></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
     </div>
-    <br><br><br><br>
-  
-      
 
     <footer>
-        <p class="grey-background">&copy; &infin;</p>
-      </footer>
-</body>
-<script src="script.js"></script>
+      <p class="grey-background">&copy; &infin;</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
