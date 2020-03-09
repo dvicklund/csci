@@ -167,7 +167,7 @@ footer {
   font-size: 1.5em;
   color: white;
   background-image: linear-gradient(rgba(240, 160, 160, 0.9), rgba(0,0,0,0.9)), url("images/plumbusDesk.jpg");
-  background-position: 0% 70%;
+  background-position: 0% 80%;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
@@ -264,7 +264,7 @@ footer {
     padding: 0;
     text-align: center;
   }
-	
+
 	#supportimg {
 		display: none;
 	}
