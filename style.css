@@ -268,8 +268,11 @@ div img {
 }
 
 h3 {
+  color: #901E1B;
   font-weight: bold;
   font-size: 2em;
+  padding-bottom: 1em;
+  padding-top: .5px;
 }
 
 .center {
