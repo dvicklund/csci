@@ -30,10 +30,13 @@ h2{
 }
 
 nav {
+  background-color: rgba(240, 160, 160, 0.6);
+  background-image: linear-gradient(to right, rgba(240, 160, 160, 0.6), rgba(240 ,160, 160, 0.0));
   float: left;
   width: auto;
   text-align: left;
   padding: 0.5em 1em;
+  border-radius: 0.5em;
 }
 
 nav li {
